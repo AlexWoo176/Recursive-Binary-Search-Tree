@@ -1,4 +1,4 @@
-package codegym;
+package codegym.recursive;
 
 public class TreeNode {
     private int data;

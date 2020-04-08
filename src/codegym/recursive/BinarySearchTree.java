@@ -1,4 +1,4 @@
-package codegym;
+package codegym.recursive;
 
 public class BinarySearchTree {
     public static TreeNode insertValue(TreeNode root, int key) {

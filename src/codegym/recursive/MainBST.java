@@ -1,4 +1,4 @@
-package codegym;
+package codegym.recursive;
 
 public class MainBST {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class MainBST {
         for (int key : keys) {
             root = BinarySearchTree.insertValue(root, key);
         }
-        BinarySearchTree.searchNode(root, 59, null);
+        BinarySearchTree.searchNode(root, 45, null);
         System.out.println();
     }
 }
